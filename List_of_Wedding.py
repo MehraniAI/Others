@@ -78,7 +78,7 @@ if not df.empty:
 
         col1, col2 = st.columns(2)
         with col1:
-            if st.button("💾 Save Changes"):
+            if st.button("💾 Update Changes"):
                 df.at[guest_index, 'Name'] = new_name
                 df.at[guest_index, 'Village/City'] = new_village
                 df.at[guest_index, 'Invited'] = new_invited
